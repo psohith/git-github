@@ -1,0 +1,80 @@
+open the directory and in dir : 
+
+$ git init  
+	--> to initialize a Git repository using the command line
+
+$ git add <filename|.>
+	--> to add untracked files into tracked files
+
+$ git status
+	--> to check the status of the files
+
+$ git commit -m "commit title" -m "commit description"
+	--> to save the files permanently
+
+$ git reset <filename>
+	--> to reconvert tracked file into an untracked file
+
+$ git log
+$ git log --oneline
+	--> to see the commit history
+
+$ git diff <filename>
+	--> to see the modifications in the file
+
+$ git checkout <hashcode>
+	--> to move to the previous modification
+
+$ git checkout -b <branch name>
+	--> to create a branch 
+
+$ git checkout -d <branch name>
+	--> to delete branch 
+
+$ git mv <oldfilename> <newname>
+	--> to rename the file 
+
+$ git rm <filename>
+	--> to remove a file
+
+$ git branch
+	--> it shows the list of branches
+
+#-----Authontecation-------
+
+$ git config --list
+	--> list out all the configuartion files of the git
+
+$ git config --global user.name "<username>"
+	--> to set the username
+
+$ git config --gloabl user.email "<useremailid>"
+	--> to set the useremail
+
+#---connecting the repository-------
+
+$ git remote add origin <repository_link>
+	--> for connecting the repository
+
+$ git push -u origin <master|Branchname>
+	--> to push to remote repository
+
+$ git checkout <branchname>
+	--> to shift from one branch to other
+
+$ git branch 
+	--> to see all the available branches
+
+$ git pull
+	--> to pull remote repository to our local repository
+
+$ git clone <repository_link>
+	--> to download the repository
+
+$ git merge <branch_name>
+	--> merges the branch 
+
+$ git branch  <-a|-r>
+	--> -a = all branches both local and remote ; -r = display all branches in remote repository
+ 
+	
